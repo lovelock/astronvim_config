@@ -5,8 +5,10 @@ return {
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.php" },
+  { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.toml" },
+  { import = "astrocommunity.pack.lua" },
 
   { import = "astrocommunity.motion.mini-surround" },
   { import = "astrocommunity.motion.flash-nvim" },
@@ -16,8 +18,10 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.colorscheme.gruvbox-nvim", enabled = true },
+  { import = "astrocommunity.colorscheme.gruvbox-nvim" },
   { import = "astrocommunity.colorscheme.gruvbox-baby" },
+  { import = "astrocommunity.colorscheme.github-nvim-theme" },
+  { import = "astrocommunity.colorscheme.vscode-nvim" },
 
   { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
