@@ -100,7 +100,7 @@ return {
       theme = {},
 
       ---@type boolean
-      image_support = true,
+      image_support = false,
     },
     -- configuration goes here
   },
